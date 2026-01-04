@@ -1,55 +1,107 @@
 body {
-    font-family: "Segoe UI", Arial, sans-serif;
     margin: 0;
-    background-color: #f4f6f8;
-    color: #333;
-    line-height: 1.6;
+    font-family: "Inter", "Segoe UI", Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #1f2937;
+    line-height: 1.7;
 }
 
+/* HERO */
 .hero {
-    background: #0a192f;
-    color: white;
-    padding: 40px 20px;
+    background: #0f172a;
+    color: #ffffff;
+    padding: 70px 20px;
     text-align: center;
 }
 
 .hero h1 {
-    margin-bottom: 5px;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #cbd5f5;
+}
+
+.meta {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-top: 6px;
 }
 
 .location {
-    font-size: 14px;
-    opacity: 0.8;
+    font-size: 13px;
+    color: #cbd5f5;
 }
 
+/* SECTIONS */
 .section {
-    background: white;
-    margin: 20px auto;
-    padding: 25px;
-    max-width: 900px;
-    border-radius: 6px;
+    background: #ffffff;
+    max-width: 980px;
+    margin: 32px auto;
+    padding: 36px 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.04);
 }
 
-h2 {
-    color: #0a192f;
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 5px;
+.section h2 {
+    font-size: 22px;
+    margin-bottom: 22px;
+    color: #0f172a;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 6px;
 }
 
+/* CARDS */
 .card {
-    margin-top: 15px;
+    margin-bottom: 26px;
 }
 
-.skills li {
+.card h3 {
+    font-size: 18px;
     margin-bottom: 6px;
+    color: #111827;
 }
 
+.org {
+    font-size: 14px;
+    color: #374151;
+}
+
+.small {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+/* LISTS */
 ul {
     padding-left: 20px;
 }
 
+ul li {
+    margin-bottom: 6px;
+    font-size: 14.5px;
+}
+
+/* SKILLS */
+.skill-list li {
+    list-style-type: square;
+}
+
+/* PROJECT IMAGES */
+.project-img {
+    width: 100%;
+    max-width: 850px;
+    margin: 18px 0;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+}
+
+/* LINKS */
 a {
-    color: #0077cc;
+    color: #2563eb;
     text-decoration: none;
 }
 
@@ -57,21 +109,17 @@ a:hover {
     text-decoration: underline;
 }
 
+/* CONTACT */
 .contact p {
+    font-size: 14.5px;
     margin: 6px 0;
 }
 
+/* FOOTER */
 footer {
+    background: #0f172a;
+    color: #cbd5f5;
     text-align: center;
-    padding: 15px;
-    background: #0a192f;
-    color: white;
-    margin-top: 20px;
-}
-.project-img {
-    width: 100%;
-    max-width: 800px;
-    margin: 15px 0;
-    border-radius: 6px;
-    border: 1px solid #ddd;
+    padding: 22px;
+    font-size: 13px;
 }
